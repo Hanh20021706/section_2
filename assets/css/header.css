@@ -1,0 +1,18 @@
+.header{
+    padding: 16px 0;
+}
+.header-logo__image{
+    max-width: 176px;
+    max-height: 44px;
+}
+
+
+.header-action__icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.banner__title{
+    margin-bottom: 30px;
+}

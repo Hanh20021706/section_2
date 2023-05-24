@@ -1,0 +1,21 @@
+.footer__block-wrapper{
+   
+}
+.footer-block__heading{
+    margin-bottom: 20px ;
+}
+.footer-nav__list{
+    gap: 10px;
+}
+.footer-form{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.footer-box__sub{
+    padding: 27px 0;
+}
+
+.nav-icon__image{
+    width: 52px;
+    height: 52px;
+}

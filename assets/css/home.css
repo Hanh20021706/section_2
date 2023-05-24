@@ -1,0 +1,143 @@
+
+/* 
+page section banner
+*/
+.page-section__height{
+    min-height: 870px;
+  }
+  .banner-content {
+    max-width: 770px;
+    margin: 0 auto;
+  }
+  
+  .banner-content__text {
+    margin-top: 39px;
+    margin-bottom: 70px;
+  }
+  .banner-action {
+    gap: 10px;
+  }
+  .button-action__primary {
+    padding: 16px 32px;
+  }
+  .button-play {
+    background: var(--color-white);
+    box-shadow: var(--shadow-primary);
+    width: 52px;
+    height: 52px;
+  }
+  .button-play__text {
+    margin-left: 7px;
+  }
+  
+  .wrapper-image__spacing{
+    top: 99px;
+  }
+  
+  /* 
+  box background
+  */
+  .bg-width__big {
+    width: 250px;
+    height: 250px;
+  }
+  .bg-width__large{
+    width: 200px;
+    height: 200px;
+  }
+  .bg-width__medium{
+    width: 170px;
+    height: 170px;
+  }
+  
+  .bg-width__small{
+    width: 150px;
+    height: 150px;
+  }
+  .bg-width__little{
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* 
+  radius 
+  */
+  
+  .radius-bottom__left{
+    border-radius: 50% 50% 0 50%;
+  }
+  
+  .intro-item {
+    padding: 18px 14px 0 14px;
+   
+  }
+  .intro-item__img {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+  }
+  
+  
+  /* 
+  after
+  */
+  .after--big__bottom--right::after {
+    --bg-style : 100px;
+    content: "";
+    position: absolute;
+    width: var(--bg-style);
+    height: var(--bg-style);
+    background: var(--color-main-purple);
+    right: calc(-10px - var(--bg-style));
+    bottom: 0;
+    border-radius: 50% 50% 50% 0;
+  }
+  .after--large__bottom--right::after {
+    --bg-style: 80px;
+    content: "";
+    position: absolute;
+    width: var(--bg-style);
+    height:var(--bg-style);
+    background: var(--color-main-purple);
+    right: calc(-10px - var(--bg-style));
+    bottom: 0;
+    border-radius: 50% 50% 50% 0;
+  }
+  .after--medium__bottom--right::after {
+    --bg-style : 70px;
+    content: "";
+    position: absolute;
+    width: var(--bg-style);
+    height: var(--bg-style);
+    background: var(--color-main-purple);
+    right: calc(-10px - var(--bg-style));
+    bottom: 0;
+    border-radius: 50% 50% 50% 0;
+  }
+  .after--small__bottom--right::after {
+    --bg-style : 60px;
+    content: "";
+    position: absolute;
+    width: var(--bg-style);
+    height: var(--bg-style);
+    background: var(--color-main-purple);
+    right: calc(-10px - var(--bg-style));
+    bottom: 0;
+    border-radius: 50% 50% 50% 0;
+  }
+  
+  /* 
+  absolute
+  */
+  
+  .absolute-left__medium{
+    top: 58px;
+  }
+
+
+.service-text{
+    margin-top: 30px;
+}

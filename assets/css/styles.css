@@ -1,0 +1,48 @@
+/* 
+home
+*/
+
+.tex-box{
+
+}
+.text-box__width--big{
+  width: 970px;
+  margin: 0 auto;
+}
+.text-box__width--medium{
+  width: 870px;
+  margin: 0 auto;
+}
+
+/* === header === */
+.page-header {
+  padding: 16px 0;
+}
+.logo-image {
+  width: 176px;
+}
+.item-hover__active {
+  width: 10px;
+  height: 10px;
+  background: var(--color-main-green);
+  top: -5px;
+}
+.header-action {
+  gap: 20px;
+}
+
+.action-item i {
+  font-size: 24px;
+}
+.action-item__button {
+  padding: 12px 38px;
+  margin-left: 10px;
+}
+.item-card__active {
+  width: 10px;
+  height: 10px;
+  background: var(--color-main-red);
+  left: 14px;
+  top: 0;
+  border: 2px solid var(--color-white);
+}

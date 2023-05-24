@@ -1,0 +1,31 @@
+
+
+.figure__list{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    column-count: 3;
+}
+.figure__item{
+    margin-bottom: 15px;
+}
+.move__span{
+    padding: 14px 17px;
+}
+.box-heading{
+    max-width: 970px;
+    margin: 0 auto;
+    padding-bottom: 90px;
+}
+.project__list{
+    margin-top: 77px;
+}
+.card__body{
+    top: 50px;
+}
+.card__spacing{
+    padding-bottom: 25px;
+}
+.card-image__child{
+    width: 100px;
+    height: 100px;
+}

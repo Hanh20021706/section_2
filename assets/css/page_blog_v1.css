@@ -1,0 +1,94 @@
+
+
+.sidebar{
+    gap: 35px !important ;
+    flex-wrap: nowrap ;
+}
+/* 
+card post
+*/
+.card__body{
+    padding: 25px 40px 43px 40px;
+    gap: 30px;
+}
+.author__image{
+    width: 32px;
+    height: 32px;
+}
+.card-info__author{
+    gap: 10px;
+}
+.card__link{
+    width: 160px;
+}
+
+/* 
+aside
+*/
+.aside-item{
+    padding: 20px 30px 30px 30px;
+}
+.input-group{
+    padding: 11px 15px;
+
+}
+.input-group__input{
+    max-width: 97px;
+}
+.list-popup{
+    margin-top: 28px;
+}
+.aside-item__title{
+    letter-spacing: 0.4px;
+    margin-bottom: 28px;
+}
+
+.popup__image{
+    max-width: 50px;
+    height: 50px;
+}
+.popup__title{
+    line-height: 1.7;
+    letter-spacing: -0.3px;
+}
+
+.select-group{
+    padding: 11px 15px;
+}
+.figure-text{
+    max-width: 170px;
+    gap: 40px;
+}
+/*  */
+
+.pagination{
+    gap: 46px;
+}
+.pagination-active{
+    background: var(--bg-btn-blue);
+    color: var(--color-white);
+    padding: 13px 20px;
+    border-radius: 5px;
+}
+
+/* 
+section email
+*/
+
+.email-group{
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 108px 0;
+   
+}
+.email-group__heading{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.input-email__input{
+    padding: 12px 18px;
+}
+.email-form{
+ gap: 6px;
+}
+
