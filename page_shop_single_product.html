@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/helper.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/page_shop_single_product.css" />
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header bg-light-gradient">
+        <div class="header-main container d-flex justify-between align-center">
+          <div class="header-logo">
+            <a href="" class="header-logo__link">
+              <img
+                class="header-logo__image"
+                src="./assets/image/logo.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav__list gap-30 unstyled d-flex align-center">
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Home</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Services</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >About</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Pages</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Blog</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="header-action gap-20 d-flex justify-between align-center">
+            <div class="header-action__item">
+              <a href="" class="header-action__link">
+                <i
+                  class="fa-solid header-action__icon fa-magnifying-glass color-text-light"
+                ></i>
+              </a>
+            </div>
+            <div class="header-action__item">
+              <a href="" class="header-action__link">
+                <i
+                  class="fa-solid header-action__icon fa-bag-shopping color-text-light"
+                ></i>
+              </a>
+            </div>
+            <div class="header-action__item">
+              <button
+                class="button f-outfit radius-small button-bg__primary button-spacing__primary"
+              >
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="header-banner text-center pb-120">
+          <h2 class="banner__title h2 color-text-heading">Our Latest News</h2>
+          <span
+            class="banner-router f-outfit color-text-heading text-uppercase"
+          >
+            homepage /
+            <span class="banner-router__child color-text-light">
+              Projects
+            </span>
+          </span>
+        </div>
+      </header>
+      <!-- end header -->
+      <main class="main">
+        <section class="page-section pd-100">
+          <div class="container">
+            <div class="row product-detail">
+              <div class="col" style="--w-sm: 12; --w-xl: 6">
+                <div class="">
+                  <div class="detail__figure d-flex flex-column gap-30">
+                    <div class="detail-figure__main relative">
+                      <img
+                        class="figure-slides figure-main__image aspect-square"
+                        src="https://i.pinimg.com/564x/1a/ad/7e/1aad7ef4c1ba3046305dc6c1736a3a28.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="figure-slides figure-main__image aspect-square d-none"
+                        src="https://i.pinimg.com/564x/ed/d1/47/edd14747ed8917cddfad18ebce7a1b23.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="figure-slides figure-main__image aspect-square d-none"
+                        src="https://i.pinimg.com/564x/ed/d1/47/edd14747ed8917cddfad18ebce7a1b23.jpg"
+                        alt=""
+                      />
+                      <div class="absolute zoom__image pointer">
+                        <i
+                          class="fa-solid fa-magnifying-glass-plus color-white"
+                        ></i>
+                      </div>
+                    </div>
+                    <div class="detail-figure__sub d-flex gap-30">
+                      <div class="figure-sub__item">
+                        <img
+                          src="https://i.pinimg.com/564x/1a/ad/7e/1aad7ef4c1ba3046305dc6c1736a3a28.jpg"
+                          alt=""
+                          class="figure-sub__image pointer aspect-square"
+                          onclick="currentDiv(1)"
+                        />
+                      </div>
+                      <div class="figure-sub__item">
+                        <img
+                          src="https://i.pinimg.com/564x/ed/d1/47/edd14747ed8917cddfad18ebce7a1b23.jpg"
+                          alt=""
+                          class="figure-sub__image pointer aspect-square"
+                          onclick="currentDiv(2)"
+                        />
+                      </div>
+                      <div class="figure-sub__item">
+                        <img
+                          src="https://i.pinimg.com/564x/c4/36/93/c436931e0bc7975e964a81c56c2ad609.jpg"
+                          alt=""
+                          class="figure-sub__image pointer aspect-square"
+                          onclick="currentDiv(1)"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="" style="--w-sm: 12; --w-xl: 6">
+                <div class="detail-content d-flex flex-column">
+                  <h2 class="h3 color-text-heading product-detail__title">
+                    Samsung S22
+                  </h2>
+                  <span class="f-sans paragraph-1 color-text-light"
+                    >From $299</span
+                  >
+                  <div class="detail-star d-flex flex-row gap-5">
+                    <span class="">
+                      <i class="fa-solid fa-star color-main-origin"></i>
+                    </span>
+                    <span class="">
+                      <i class="fa-solid fa-star color-main-origin"></i>
+                    </span>
+                    <span class="">
+                      <i class="fa-solid fa-star color-main-origin"></i>
+                    </span>
+                  </div>
+                  <div class="d-flex flex-column gap-20">
+                    <p class="f-sans paragraph-2">
+                      Make everyday epic. Introducing Galaxy S22 and S22+ with
+                      Nightography camera, storage to hold all your night shots
+                      and a way beyond all-day battery.
+                    </p>
+                    <p class="f-sans paragraph-2">
+                      Buy your Samsung Galaxy S22 Phones today at the best
+                      price!
+                      <a href="" class="decoration-none color-main-blue">
+                        More info
+                      </a>
+                    </p>
+                  </div>
+                  <div class="detail-color">
+                    <h4 class="h6 color-text-heading">Colors</h4>
+
+                    <div class="detail-color__list d-flex gap-10">
+                      <span
+                        class="detail-color__item bg-gray-light d-block radius-big"
+                      >
+                      </span>
+                      <span
+                        class="detail-color__item bg-green-light d-block radius-big"
+                      >
+                      </span>
+                      <span
+                        class="detail-color__item bg-gray-light d-block radius-big"
+                      >
+                      </span>
+                    </div>
+                  </div>
+                  <div class="d-flex gap-10 single_variation_wrap">
+                    <input
+                      value="1"
+                      type="number"
+                      class="detail-form__input text-center radius-small input-outline__none border-solid__light input-spacing__medium"
+                    />
+                    <button
+                      class=" button button-bg__primary radius-small button-spacing__primary f-outfit text-uppercase"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                  <div class="d-flex">
+                    <div class="favourite__button border-right">
+                      <i class="fa-solid fa-heart h6"></i>
+                    </div>
+                    <div class="product-detail__share d-flex gap-20">
+                      <span class="">
+                        <i class="fa-solid fa-envelope h6"></i>
+                      </span>
+                      <span class="">
+                        <i class="fa-brands fa-facebook h6"></i>
+                      </span>
+                      <span class="">
+                        <i class="fa-brands fa-instagram h6"></i>
+                      </span>
+                      <span class="">
+                        <i class="fa-brands fa-twitter h6"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex gap-20 product-add__infor border-top border-bottom"
+                  >
+                    <span class="hsub-1 f-outfit color-text-heading">
+                      SKU: 001
+                    </span>
+                    <span class="hsub-1 color-text-heading f-outfit">
+                      Category :
+                      <a
+                        href=""
+                        class="f-outfit color-main-blue decoration-none"
+                        >Smartphone</a
+                      >
+                    </span>
+                    <span class="hsub-1 color-text-heading f-outfit">
+                      Category :
+                      <a
+                        href=""
+                        class="f-outfit color-main-blue decoration-none"
+                        >Smartphone</a
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section pd-100">
+          <div class="detail-tabs container">
+            <div class="d-flex align-center justify-center gap-40">
+              <button
+                onclick="openTabs(event,'description')"
+                class="button btn_active activeTab relative d-flex justify-center align-center h6 color-text-heading "
+              >
+                Description
+              </button>
+              <button
+                onclick="openTabs(event,'aditional')"
+                class="button btn_active relative d-flex justify-center align-center h6 color-text-heading "
+              >
+                Aditional Information
+              </button>
+              <button
+                onclick="openTabs(event,'reviews')"
+                class="button btn_active relative d-flex justify-center align-center h6 color-text-heading "
+              >
+                Reviews
+              </button>
+              <button
+                onclick="openTabs(event,'shipping')"
+                class="button btn_active relative d-flex justify-center align-center h6 color-text-heading "
+              >
+                Shipping Rates
+              </button>
+            </div>
+            <div
+              id="description"
+              class="basel-tab-wrapper d-flex border-bottom border-top"
+            >
+              <div class="row">
+                <div class="col" style="--w-sm: 12; --w-xl: 6">
+                  <p class="f-sans color-text-light hsub-1">
+                    It’s our brightest innovation yet. The sensor pulls in more
+                    light, the Super Clear Glass dials down lens flare, and
+                    fast-acting AI delivers near-instant intelligent processing.
+                  </p>
+                </div>
+                <div class="col" style="--w-sm: 12; --w-xl: 6">
+                  <p class="f-sans color-text-light hsub-1">
+                    It’s our brightest innovation yet. The sensor pulls in more
+                    . It’s our brightest innovation yet. The sensor pulls in
+                    more . It’s our brightest innovation yet. The sensor pulls
+                    in more .
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              id="aditional"
+              class="basel-tab-wrapper d-none border-bottom border-top"
+            >
+              <div class="row">
+                <div class="col" style="--w-sm: 12; --w-xl: 6">
+                  <p class="f-sans color-text-light hsub-1">
+                    It’s our brightest innovation yet. The sensor pulls in more
+                    . It’s our brightest innovation yet. The sensor pulls in
+                    more .
+                  </p>
+                </div>
+                <div class="col" style="--w-sm: 12; --w-xl: 6">
+                  <p class="f-sans color-text-light hsub-1">
+                    It’s our brightest innovation yet. The sensor pulls in more
+                    . It’s our brightest innovation yet. The sensor pulls in
+                    more . It’s our brightest innovation yet. The sensor pulls
+                    in more .
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              id="shipping"
+              class="basel-tab-wrapper d-none border-bottom border-top"
+            >
+              <div class="row">
+                <div class="col" style="--w-sm: 12; --w-xl: 6">
+                  <p class="f-sans color-text-light hsub-1">
+                    It’s our brightest innovation yet. The sensor pulls in more
+                    .
+                  </p>
+                </div>
+                <div class="col" style="--w-sm: 12; --w-xl: 6">
+                  <p class="f-sans color-text-light hsub-1">
+                    It’s our brightest innovation yet. The sensor pulls in more
+                    . It’s our brightest innovation yet. The sensor pulls in
+                    more . It’s our brightest innovation yet. The sensor pulls
+                    in more .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section pd-100">
+          <div class="container">
+            <div class="box-text__large">
+              <h2 class="text-center h3 color-text-heading">
+                Here you can buy similar products
+              </h2>
+            </div>
+            <div class="row product-related__row">
+              <div class="col" style="--w-sm: 12; --w-xl: 3">
+                <div class="card">
+                  <div class="detail-card__figure">
+                    <img
+                      class="detail-card__image aspect-square"
+                      src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-card__body text-center d-flex flex-column">
+                    <h3 class="card__title h6 color-text-heading">
+                      S22+ 256GB
+                    </h3>
+                    <span class="card__price hsub-1 f-sans color-text-light">
+                      From $799
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 3">
+                <div class="card">
+                  <div class="detail-card__figure">
+                    <img
+                      class="detail-card__image aspect-square"
+                      src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-card__body text-center d-flex flex-column">
+                    <h3 class="card__title h6 color-text-heading">
+                      S22+ 256GB
+                    </h3>
+                    <span class="card__price hsub-1 f-sans color-text-light">
+                      From $799
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 3">
+                <div class="card">
+                  <div class="detail-card__figure">
+                    <img
+                      class="detail-card__image aspect-square"
+                      src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-card__body text-center d-flex flex-column">
+                    <h3 class="card__title h6 color-text-heading">
+                      S22+ 256GB
+                    </h3>
+                    <span class="card__price hsub-1 f-sans color-text-light">
+                      From $799
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 3">
+                <div class="card">
+                  <div class="detail-card__figure">
+                    <img
+                      class="detail-card__image aspect-square"
+                      src="https://i.pinimg.com/564x/c2/f9/4a/c2f94a8faab318fe4d1ac68ec8dbea6d.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="detail-card__body text-center d-flex flex-column">
+                    <h3 class="card__title h6 color-text-heading">
+                      S22+ 256GB
+                    </h3>
+                    <span class="card__price hsub-1 f-sans color-text-light">
+                      From $799
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section  text-center pd-100 bg-light">
+          <div class="box-text__large detail-box__text d-flex flex-column gap-30">
+            <h2 class="h2 color-text-heading">
+              Get help, find answers, download drivers, manuals and much more
+            </h2>
+            <p class="h5 f-sans color-text-light">
+              Contact us online through chat and get support from an expert
+            </p>
+          </div>
+          <button class="button   text-uppercase f-outfit button-bg__primary button-spacing__primary radius-small">chat now</button>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer bg-dark-light">
+        <div class="footer__block-wrapper container">
+          <div class="row pd-100">
+            <div class="col" style="--w-xl: 2">
+              <img
+                src="./assets/image/logo-footer.png"
+                alt=""
+                class="footer__image"
+              />
+            </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col" style="--w-xl: 4">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Newsletter
+              </h2>
+              <div class="footer-content__text f-sans color-white hsub-1">
+                Subscribe to our newsletter to keep up to date on our marketing,
+                website, design services, and tips.
+              </div>
+              <div class="footer-form d-flex flex-row gap-5">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Email enter"
+                  class="input radius-small input-outline__none border-solid__light input-spacing__medium w-full"
+                />
+                <button
+                  class="button radius-small button-bg__primary button-spacing__primary text-uppercase f-outfit"
+                >
+                  Submit
+                </button>
+              </div>
+              <div class="footer-content__text f-sans color-white hsub-1">
+                We hate spam as much as you do. We will never, ever send you
+                such emails.
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer-box__sub border-top d-flex justify-between align-center"
+          >
+            <div class="color-text-gray f-sans hsub-1">
+              © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
+              Privacy Policy.
+            </div>
+            <ul class="nav-icon unstyled d-flex gap-20">
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/face.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/tw.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/in.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+    </div>
+  </body>
+</html>

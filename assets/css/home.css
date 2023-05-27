@@ -106,6 +106,28 @@ page section banner
     bottom: 0;
     border-radius: 50% 50% 50% 0;
   }
+  .after--large__bottom--left::after {
+    --bg-style: 80px;
+    content: "";
+    position: absolute;
+    width: var(--bg-style);
+    height:var(--bg-style);
+    background: var(--color-main-turquoise);
+    bottom: 0;
+    left:  calc(-10px - var(--bg-style));
+    border-radius:50% 50% 0 50% ;
+  }
+  .after--large__bottom--left__blue::after {
+    --bg-style: 80px;
+    content: "";
+    position: absolute;
+    width: var(--bg-style);
+    height:var(--bg-style);
+    background: var(--color-main-purple);
+    bottom: 0;
+    left:  calc(-10px - var(--bg-style));
+    border-radius:50% 50% 0 50% ;
+  }
   .after--medium__bottom--right::after {
     --bg-style : 70px;
     content: "";
@@ -117,6 +139,20 @@ page section banner
     bottom: 0;
     border-radius: 50% 50% 50% 0;
   }
+
+  .after--medium__top--right::after {
+    --bg-style : 70px;
+    content: "";
+    position: absolute;
+    width: var(--bg-style);
+    height: var(--bg-style);
+    background: var(--color-main-purple);
+    top: 0;
+    bottom: 0;
+    left: calc(-10px - var(--bg-style));
+    border-radius: 50% 50% 0 50% ;
+  }
+  
   .after--small__bottom--right::after {
     --bg-style : 60px;
     content: "";
@@ -132,12 +168,110 @@ page section banner
   /* 
   absolute
   */
-  
-  .absolute-left__medium{
-    top: 58px;
+  .service-wrapper{
+    margin-bottom: 70px;
   }
 
-
-.service-text{
-    margin-top: 30px;
+  .service-card{
+    padding: 42px 50px 65px 50px;
+  }
+  .service-card__img{
+    width: 90px;
+    height: 90px;
+  }
+  .service-card__title{
+    margin-bottom: 22px;
+  }
+.brand__list{
+  margin-top: 80px;
+  gap: 105px;
 }
+  .brand__image{
+    max-width: 150px;
+    object-fit: contain;
+  }
+.benefit-wrapper{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding-inline: 65px;
+}
+.benefit-card__image{
+  width: 70px;
+  height: 70px;
+}
+.featured__body{
+  margin-top: 40px;
+}
+.featured__headingsub{
+  margin-top: 25px;
+}
+.featured-content{
+  padding-inline: 100px;
+  padding-top: 50px;
+}
+.featured-content__headingsub{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.featured-content__button{
+  margin-top: 90px;
+}
+.featured__button__prc , .featured__button__append{
+  padding: 20px 24px;
+}
+.office__figure{
+  margin-top: 330px;
+}
+.office__image{
+  max-width: 870px;
+  max-height: 450px;
+}
+.office__space{
+  top: -250px;
+  max-width: 570px;
+  left: 0;
+  padding: 60px 100px;
+}
+.office__figure__sub{
+  top: -130px;
+  right: 99px;
+}
+.figure__img__sub{
+  width: 370px;
+  height: 230px;
+}
+
+
+.collection-card__image{
+  max-height: 580px;
+}
+
+.card__header-buy{
+
+  padding-inline: 100px;
+}
+.card-buy{
+}
+.card__header-buy{
+  margin-top: 35px;
+}
+
+
+.about__card{
+  padding: 35px 35px 45px 35px;
+}
+.about-card__image{
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+}
+.about-card__body{
+  margin-top: 20px;
+}
+.about-card__body-text{
+  margin-top: 25px;
+}
+.card__header__star{
+  margin-top: 20px;
+}
+.card__header__star{}

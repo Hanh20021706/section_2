@@ -1,4 +1,7 @@
 .header{
+    max-height: 950px;
+}
+.header-main{
     padding: 16px 0;
 }
 .header-logo__image{
@@ -15,4 +18,15 @@
 
 .banner__title{
     margin-bottom: 30px;
+}
+.banner-action{
+    margin-top: 70px;   
+}
+.button__play{
+    padding: 15px 16px;
+}
+.banner-user__image{
+}
+.service-wrapper{
+    margin-top: 80px;
 }

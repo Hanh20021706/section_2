@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/helper.css" />
     <link rel="stylesheet" href="./assets/css/layout.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/footer.css" />
-    <link rel="stylesheet" href="./assets/css/page_portfolio.css">
+    <link rel="stylesheet" href="./assets/css/page_portfolio.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -18,495 +18,689 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrapper">
-        <!-- header -->
-        <header class="header bg-light-gradient">
-          <div class="header-main container d-flex justify-between align-center">
-            <div class="header-logo">
-              <a href="" class="header-logo__link">
-                <img
-                  class="header-logo__image"
-                  src="./assets/image/logo.png"
-                  alt=""
-                />
+      <!-- header -->
+      <header class="header bg-light-gradient">
+        <div class="header-main container d-flex justify-between align-center">
+          <div class="header-logo">
+            <a href="" class="header-logo__link">
+              <img
+                class="header-logo__image"
+                src="./assets/image/logo.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <nav class="main-nav">
+            <ul class="main-nav__list gap-30 unstyled d-flex align-center">
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Home</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Services</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >About</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Pages</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Blog</a
+                >
+              </li>
+              <li class="main-nav__item">
+                <a
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="header-action gap-20 d-flex justify-between align-center">
+            <div class="header-action__item">
+              <a href="" class="header-action__link">
+                <i
+                  class="fa-solid header-action__icon fa-magnifying-glass color-text-light"
+                ></i>
               </a>
             </div>
-            <nav class="main-nav">
-              <ul class="main-nav__list gap-30 unstyled d-flex align-center">
-                <li class="main-nav__item">
-                  <a
-                    href=""
-                    class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
-                    >Home</a
-                  >
-                </li>
-                <li class="main-nav__item">
-                  <a
-                    href=""
-                    class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
-                    >Services</a
-                  >
-                </li>
-                <li class="main-nav__item">
-                  <a
-                    href=""
-                    class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
-                    >About</a
-                  >
-                </li>
-                <li class="main-nav__item">
-                  <a
-                    href=""
-                    class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
-                    >Pages</a
-                  >
-                </li>
-                <li class="main-nav__item">
-                  <a
-                    href=""
-                    class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
-                    >Blog</a
-                  >
-                </li>
-                <li class="main-nav__item">
-                  <a
-                    href=""
-                    class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <div class="header-action gap-20 d-flex justify-between align-center">
-              <div class="header-action__item">
-                <a href="" class="header-action__link">
-                  <i
-                    class="fa-solid header-action__icon fa-magnifying-glass color-text-light"
-                  ></i>
-                </a>
-              </div>
-              <div class="header-action__item">
-                <a href="" class="header-action__link">
-                  <i
-                    class="fa-solid header-action__icon fa-bag-shopping color-text-light"
-                  ></i>
-                </a>
-              </div>
-              <div class="header-action__item">
-                <button
-                  class="button f-outfit radius-small button-bg__primary button-spacing__primary"
-                >
-                  Sign Up
-                </button>
-              </div>
+            <div class="header-action__item">
+              <a href="" class="header-action__link">
+                <i
+                  class="fa-solid header-action__icon fa-bag-shopping color-text-light"
+                ></i>
+              </a>
+            </div>
+            <div class="header-action__item">
+              <button
+                class="button f-outfit radius-small button-bg__primary button-spacing__primary"
+              >
+                Sign Up
+              </button>
             </div>
           </div>
-          <div class="header-banner text-center pb-120">
-            <h2 class="banner__title h2 color-text-heading">Our Latest News</h2>
-            <span
-              class="banner-router f-outfit color-text-heading text-uppercase"
-            >
-              homepage /
-              <span class="banner-router__child color-text-light"> Projects </span>
+        </div>
+        <div class="header-banner text-center pb-120">
+          <h2 class="banner__title h2 color-text-heading">Our Latest News</h2>
+          <span
+            class="banner-router f-outfit color-text-heading text-uppercase"
+          >
+            homepage /
+            <span class="banner-router__child color-text-light">
+              Projects
             </span>
-          </div>
-        </header>
-        <!-- end header -->
-        <main class="main ">
-            <section class="page-section pb-120" >
-                <div class="figure-wrapper container text-center">
-                    <h2 class="figure__title h1 color-text-heading">
-                        Get inspired by our finest work
-                    </h2>
-                    <div class="figure__list">
-                        <div class="figure__item">
-                            <img class="radius-small" src="https://i.pinimg.com/564x/c8/81/62/c8816213bc223e819322f28c60d4ed15.jpg" alt="">
-                        </div>
-                        <div class="figure__item">
-                            <img class="radius-small" src="https://i.pinimg.com/564x/07/e1/15/07e1155e49bdbd2a0ae8de7fd9d8aee6.jpg" alt="">
-                        </div>
-                        <div class="figure__item">
-                            <img class="radius-small" src="https://i.pinimg.com/736x/5d/ac/bc/5dacbc30b05787b9087d64dea37d6346.jpg" alt="">
-                        </div>
-                        <div class="figure__item">
-                            <img class="radius-small" src="https://i.pinimg.com/564x/f2/28/8c/f2288c74627407ab55f9ab89c3a3877c.jpg" alt="">
-                        </div>
-                        <div class="figure__item">
-                            <img class="radius-small" src="https://i.pinimg.com/564x/3c/7f/33/3c7f334bb1e93dddbe3e18fba311f2c6.jpg" alt="">
-                        </div>
-                        <div class="figure__item">
-                            <img class="radius-small" src="https://i.pinimg.com/564x/9a/95/f7/9a95f733b7769258b528e0939184417a.jpg" alt="">
-                        </div>
-                    </div>
-                    <button class="button button-bg__gray radius-small button-spacing__primary"> 
-                        Load More
-                    </button>
-                </div>
-            </section>
-            <section class="page-section">
-              <div class="recent-projects__wrapper container pb-120">
-                    <div class="d-flex justify-between align-center">
-                        <h2 class="h2 color-text-heading">
-                            Recent projects
-                        </h2>
-                        <div class="d-flex gap-10 align-center">
-                            <span class="radius-medium border-solid__light move__span pointer">
-                                <i class="fa-solid fa-arrow-left"></i>
-                            </span>
-                            <span class="pointer">
-                                <i class="fa-solid fa-arrow-right move__span bg-btn-blue radius-medium color-white"></i>
-                            </span>
-                        </div>
-                    </div>
-                    <div class="project__list row">
-                            <div class="col" style="--w-xl:4">
-                                <div class="project__item relative d-flex justify-center h-full">
-                                    <img class="card__image radius-small" src="https://i.pinimg.com/564x/f2/28/8c/f2288c74627407ab55f9ab89c3a3877c.jpg" alt="" >
-                                    <div class="card__body absolute d-flex flex-column gap-20 ">
-                                        <h3 class="card__title h5 color-white weight-400">
-                                            Collaboration App
-                                        </h3>
-                                        <p class="card__subtitle f-sans color-white">
-                                            UI Deisgn / <span>Development</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col" style="--w-xl:4">
-                                <div class="project__item relative d-flex justify-center h-full">
-                                    <img class="card__image radius-small" src="https://i.pinimg.com/564x/67/5a/52/675a52d478894bfaef2abd55383e8e6c.jpg" alt="" >
-                                    <div class="card__body absolute d-flex flex-column gap-20 ">
-                                        <h3 class="card__title h5 color-white weight-400">
-                                            Collaboration App
-                                        </h3>
-                                        <p class="card__subtitle f-sans color-white">
-                                            UI Deisgn / <span>Development</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col" style="--w-xl:4">
-                                <div class="project__item relative d-flex justify-center h-full">
-                                    <img class="card__image radius-small" src="https://i.pinimg.com/564x/f2/28/8c/f2288c74627407ab55f9ab89c3a3877c.jpg" alt="" >
-                                    <div class="card__body absolute d-flex flex-column gap-20 ">
-                                        <h3 class="card__title h5 color-white weight-400">
-                                            Collaboration App
-                                        </h3>
-                                        <p class="card__subtitle f-sans color-white">
-                                            UI Deisgn / <span>Development</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-              </div>
-            </section>
-            <section class="page-section bg-light pb-120">
-                <div class="related-wrapper container">
-                        <div class="box-heading">
-                            <h2 class="h2 text-center color-text-heading">
-                                We will keep you up to date and give you tips to help you optimise your company
-                            </h2>
-                        </div>
-                        <div class="row">
-                            <div class="col" style="--w-xl:4">
-                                <div class="card card__spacing border-bottom">
-                                    <div class="card__figure">
-
-                                        <img class="card__image aspect-square radius-medium" src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg" alt="" >
-                                    </div>
-                                    <div class="card__body d-flex flex-column gap-20">
-                                        <h3 class="card__title h5 weight-400 color-text-heading">10 secrets to connect with your audience through your website and blog</h3>
-                                        <p class="card__subtitle f-sans paragraph-1 color-text-light spacing-small">
-                                            It is not the same to write a blog with simple information as to write by connecting with your target.
-                                        </p>
-                                        <div class="card__date d-flex gap-20">
-                                            <span class="paragraph-3 color-text-light f-sans">
-                                                <i class="fa-solid fa-calendar-days color-main-blue"></i> May 7, 2022
-                                            </span>
-                                            <span class="paragraph-3 color-text-light f-sans">
-                                                <i class="fa-regular fa-clock color-main-blue"></i>  10 min read
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col" style="--w-xl:4">
-                                <div class="card card__spacing border-bottom">
-                                    <div class="card__figure">
-
-                                        <img class="card__image aspect-square radius-medium" src="https://i.pinimg.com/564x/fc/d9/92/fcd992555d1e47969c67cac4e1c72d47.jpg" alt="" >
-                                    </div>
-                                    <div class="card__body d-flex flex-column gap-20">
-                                        <h3 class="card__title h5 weight-400 color-text-heading">10 secrets to connect with your audience through your website and blog</h3>
-                                        <p class="card__subtitle f-sans paragraph-1 color-text-light spacing-small">
-                                            It is not the same to write a blog with simple information as to write by connecting with your target.
-                                        </p>
-                                        <div class="card__date d-flex gap-20">
-                                            <span class="paragraph-3 color-text-light f-sans">
-                                                <i class="fa-solid fa-calendar-days color-main-blue"></i> May 7, 2022
-                                            </span>
-                                            <span class="paragraph-3 color-text-light f-sans">
-                                                <i class="fa-regular fa-clock color-main-blue"></i>  10 min read
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col" style="--w-xl:4">
-                                <div class="d-flex flex-column gap-20">
-                                    <div class="card card__spacing d-flex gap- row-reverse border-bottom">
-                                        <div class="card__figure">
-                                            <img class=" card-image__child aspect-square radius-medium" src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg" alt="" >
-                                        </div>
-                                        <div class="card__body d-flex flex-column gap-30">
-                                            <h3 class="card__title h5 weight-400 color-text-heading">10 secrets to connect with your audience through your website and blog</h3>
-                                            <div class="card__date d-flex gap-20">
-                                                <span class="paragraph-3 color-text-light f-sans">
-                                                    <i class="fa-solid fa-calendar-days color-main-blue"></i> May 7, 2022
-                                                </span>
-                                                <span class="paragraph-3 color-text-light f-sans">
-                                                    <i class="fa-regular fa-clock color-main-blue"></i>  10 min read
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card card__spacing d-flex gap-20 row-reverse border-bottom">
-                                        <div class="card__figure">
-                                            <img class=" card-image__child aspect-square radius-medium" src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg" alt="" >
-                                        </div>
-                                        <div class="card__body d-flex flex-column gap-30">
-                                            <h3 class="card__title h5 weight-400 color-text-heading">10 secrets to connect with your audience through your website and blog</h3>
-                                            <div class="card__date d-flex gap-20">
-                                                <span class="paragraph-3 color-text-light f-sans">
-                                                    <i class="fa-solid fa-calendar-days color-main-blue"></i> May 7, 2022
-                                                </span>
-                                                <span class="paragraph-3 color-text-light f-sans">
-                                                    <i class="fa-regular fa-clock color-main-blue"></i>  10 min read
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card card__spacing d-flex gap-20 row-reverse border-bottom">
-                                        <div class="card__figure">
-                                            <img class=" card-image__child aspect-square radius-medium" src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg" alt="" >
-                                        </div>
-                                        <div class="card__body d-flex flex-column gap-30">
-                                            <h3 class="card__title h5 weight-400 color-text-heading">10 secrets to connect with your audience through your website and blog</h3>
-                                            <div class="card__date d-flex gap-20">
-                                                <span class="paragraph-3 color-text-light f-sans">
-                                                    <i class="fa-solid fa-calendar-days color-main-blue"></i> May 7, 2022
-                                                </span>
-                                                <span class="paragraph-3 color-text-light f-sans">
-                                                    <i class="fa-regular fa-clock color-main-blue"></i>  10 min read
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                </div>
-            </section>
-        </main>
-        <!-- footer -->
-        <footer class="footer bg-dark-light">
-          <div class="footer__block-wrapper container">
-            <div class="row pd-100">
-              <div class="col" style="--w-xl: 2">
+          </span>
+        </div>
+      </header>
+      <!-- end header -->
+      <main class="main">
+        <section class="page-section pb-120">
+          <div class="figure-wrapper container text-center">
+            <h2 class="figure__title h1 color-text-heading">
+              Get inspired by our finest work
+            </h2>
+            <div class="figure__list">
+              <div class="figure__item">
                 <img
-                  src="./assets/image/logo-footer.png"
+                  class="radius-small"
+                  src="https://i.pinimg.com/564x/c8/81/62/c8816213bc223e819322f28c60d4ed15.jpg"
                   alt=""
-                  class="footer__image"
                 />
               </div>
-              <div class="col" style="--w-xl: 2">
-                <h2 class="footer-block__heading color-white weight-400 h5">
-                  Company
-                </h2>
-                <ul class="footer-nav__list d-flex flex-column">
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Work
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Careers
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                </ul>
+              <div class="figure__item">
+                <img
+                  class="radius-small"
+                  src="https://i.pinimg.com/564x/07/e1/15/07e1155e49bdbd2a0ae8de7fd9d8aee6.jpg"
+                  alt=""
+                />
               </div>
-              <div class="col" style="--w-xl: 2">
-                <h2 class="footer-block__heading color-white weight-400 h5">
-                  Company
-                </h2>
-                <ul class="footer-nav__list d-flex flex-column">
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Work
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Careers
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                </ul>
+              <div class="figure__item">
+                <img
+                  class="radius-small"
+                  src="https://i.pinimg.com/736x/5d/ac/bc/5dacbc30b05787b9087d64dea37d6346.jpg"
+                  alt=""
+                />
               </div>
-              <div class="col" style="--w-xl: 2">
-                <h2 class="footer-block__heading color-white weight-400 h5">
-                  Company
-                </h2>
-                <ul class="footer-nav__list d-flex flex-column">
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Work
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Careers
-                    </a>
-                  </li>
-                  <li class="footer-nav__item unstyled">
-                    <a
-                      href=""
-                      class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                </ul>
+              <div class="figure__item">
+                <img
+                  class="radius-small"
+                  src="https://i.pinimg.com/564x/f2/28/8c/f2288c74627407ab55f9ab89c3a3877c.jpg"
+                  alt=""
+                />
               </div>
-              <div class="col" style="--w-xl: 4">
-                <h2 class="footer-block__heading color-white weight-400 h5">
-                  Newsletter
-                </h2>
-                <div class="footer-content__text f-sans color-white hsub-1">
-                  Subscribe to our newsletter to keep up to date on our marketing,
-                  website, design services, and tips.
+              <div class="figure__item">
+                <img
+                  class="radius-small"
+                  src="https://i.pinimg.com/564x/3c/7f/33/3c7f334bb1e93dddbe3e18fba311f2c6.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="figure__item">
+                <img
+                  class="radius-small"
+                  src="https://i.pinimg.com/564x/9a/95/f7/9a95f733b7769258b528e0939184417a.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <button
+              class="button button-bg__gray radius-small button-spacing__primary"
+            >
+              Load More
+            </button>
+          </div>
+        </section>
+        <section class="page-section pb-120">
+          <div class="about-group container">
+            <div class="box-text__medium text-center d-flex flex-column gap-30">
+              <h2 class="h2 color-text-heading">
+                What our clients are saying about us
+              </h2>
+              <p class="f-outfit color-text-light h5">
+                Customer satisfaction is a primary goal for our company
+              </p>
+            </div>
+            <div class="row about__row">
+              <div class="col" style="--w-sm:12; --w-xl:4">
+                <div class="about__card border-solid__light radius-medium d-flex flex-column align-center">
+                  <div class="card__figure">
+                    <img
+                      class="about-card__image radius-big "
+                      src="https://i.pinimg.com/564x/8c/a1/26/8ca126ae8b65e887c5a67ac667d72683.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__header text-center">
+                    <h3 class="h5 color-text-heading">Monica Smith</h3>
+                    <span class="f-sans color-text-light"> Brand & Co </span>
+                  </div>
+                  <div class="about-card__body text-center ">
+                    <h4 class="h6 color-text-heading">Amazing!!</h4>
+                    <p class="f-sans paragraph-1 about-card__body-text color-text-light">
+                      Overall experience is awesome!! I'm a visual thinker, and
+                      I couldn't function without a tool like this.
+                    </p>
+                  </div>
                 </div>
-                <div class="footer-form d-flex flex-row gap-5">
-                  <input
-                    type="text"
-                    name=""
-                    id=""
-                    placeholder="Email enter"
-                    class="input radius-small input-outline__none border-solid__light input-spacing__medium w-full"
-                  />
-                  <button
-                    class="button radius-small button-bg__primary button-spacing__primary text-uppercase f-outfit"
-                  >
-                    Submit
-                  </button>
+              </div>
+              <div class="col" style="--w-sm:12; --w-xl:4">
+                <div class="about__card border-solid__light radius-medium d-flex flex-column align-center">
+                  <div class="card__figure">
+                    <img
+                      class="about-card__image radius-big "
+                      src="https://i.pinimg.com/564x/8c/a1/26/8ca126ae8b65e887c5a67ac667d72683.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__header text-center">
+                    <h3 class="h5 color-text-heading">Monica Smith</h3>
+                    <span class="f-sans color-text-light"> Brand & Co </span>
+                  </div>
+                  <div class="about-card__body text-center ">
+                    <h4 class="h6 color-text-heading">Amazing!!</h4>
+                    <p class="f-sans paragraph-1 about-card__body-text color-text-light">
+                      Overall experience is awesome!! I'm a visual thinker, and
+                      I couldn't function without a tool like this.
+                    </p>
+                  </div>
                 </div>
-                <div class="footer-content__text f-sans color-white hsub-1">
-                  We hate spam as much as you do. We will never, ever send you
-                  such emails.
+              </div>
+              <div class="col" style="--w-sm:12; --w-xl:4">
+                <div class="about__card border-solid__light radius-medium d-flex flex-column align-center">
+                  <div class="card__figure">
+                    <img
+                      class="about-card__image radius-big "
+                      src="https://i.pinimg.com/564x/8c/a1/26/8ca126ae8b65e887c5a67ac667d72683.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__header text-center">
+                    <h3 class="h5 color-text-heading">Monica Smith</h3>
+                    <span class="f-sans color-text-light"> Brand & Co </span>
+                  </div>
+                  <div class="about-card__body text-center ">
+                    <h4 class="h6 color-text-heading">Amazing!!</h4>
+                    <p class="f-sans paragraph-1 about-card__body-text color-text-light">
+                      Overall experience is awesome!! I'm a visual thinker, and
+                      I couldn't function without a tool like this.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-            <div
-              class="footer-box__sub border-top d-flex justify-between align-center"
-            >
-              <div class="color-text-gray f-sans hsub-1">
-                © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
-                Privacy Policy.
+          </div>
+        </section>
+        <section class="page-section">
+          <div class="recent-projects__wrapper container pb-120">
+            <div class="d-flex justify-between align-center">
+              <h2 class="h2 color-text-heading">Recent projects</h2>
+              <div class="d-flex gap-10 align-center">
+                <span
+                  class="radius-medium border-solid__light move__span pointer"
+                >
+                  <i class="fa-solid fa-arrow-left"></i>
+                </span>
+                <span class="pointer">
+                  <i
+                    class="fa-solid fa-arrow-right move__span bg-btn-blue radius-medium color-white"
+                  ></i>
+                </span>
               </div>
-              <ul class="nav-icon unstyled d-flex gap-20">
-                <li class="nav-icon__item">
-                  <a href="" class="d-block">
+            </div>
+            <div class="project__list row">
+              <div class="col" style="--w-xl: 4">
+                <div
+                  class="project__item relative d-flex justify-center h-full"
+                >
+                  <img
+                    class="card__image radius-small aspect-square"
+                    src="https://i.pinimg.com/564x/f2/28/8c/f2288c74627407ab55f9ab89c3a3877c.jpg"
+                    alt=""
+                  />
+                  <div class="card__body absolute d-flex flex-column gap-20">
+                    <h3 class="card__title h5 color-white weight-400">
+                      Collaboration App
+                    </h3>
+                    <p class="card__subtitle f-sans color-white">
+                      UI Deisgn / <span>Development</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-xl: 4">
+                <div
+                  class="project__item relative d-flex justify-center h-full"
+                >
+                  <img
+                    class="card__image radius-small aspect-square"
+                    src="https://i.pinimg.com/564x/67/5a/52/675a52d478894bfaef2abd55383e8e6c.jpg"
+                    alt=""
+                  />
+                  <div class="card__body absolute d-flex flex-column gap-20">
+                    <h3 class="card__title h5 color-white weight-400">
+                      Collaboration App
+                    </h3>
+                    <p class="card__subtitle f-sans color-white">
+                      UI Deisgn / <span>Development</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-xl: 4">
+                <div
+                  class="project__item relative d-flex justify-center h-full"
+                >
+                  <img
+                    class="card__image radius-small aspect-square"
+                    src="https://i.pinimg.com/564x/f2/28/8c/f2288c74627407ab55f9ab89c3a3877c.jpg"
+                    alt=""
+                  />
+                  <div class="card__body absolute d-flex flex-column gap-20">
+                    <h3 class="card__title h5 color-white weight-400">
+                      Collaboration App
+                    </h3>
+                    <p class="card__subtitle f-sans color-white">
+                      UI Deisgn / <span>Development</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section bg-light pb-120">
+          <div class="related-wrapper container">
+            <div class="box-heading">
+              <h2 class="h2 text-center color-text-heading">
+                We will keep you up to date and give you tips to help you
+                optimise your company
+              </h2>
+            </div>
+            <div class="row">
+              <div class="col" style="--w-xl: 4">
+                <div class="card card__spacing border-bottom">
+                  <div class="card__figure">
                     <img
-                      src="./assets/image/face.png"
+                      class="card__image aspect-square radius-medium"
+                      src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg"
                       alt=""
-                      class="nav-icon__image"
                     />
+                  </div>
+                  <div class="card__body d-flex flex-column gap-20">
+                    <h3 class="card__title h5 weight-400 color-text-heading">
+                      10 secrets to connect with your audience through your
+                      website and blog
+                    </h3>
+                    <p
+                      class="card__subtitle f-sans paragraph-1 color-text-light spacing-small"
+                    >
+                      It is not the same to write a blog with simple information
+                      as to write by connecting with your target.
+                    </p>
+                    <div class="card__date d-flex gap-20">
+                      <span class="paragraph-3 color-text-light f-sans">
+                        <i
+                          class="fa-solid fa-calendar-days color-main-blue"
+                        ></i>
+                        May 7, 2022
+                      </span>
+                      <span class="paragraph-3 color-text-light f-sans">
+                        <i class="fa-regular fa-clock color-main-blue"></i> 10
+                        min read
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-xl: 4">
+                <div class="card card__spacing border-bottom">
+                  <div class="card__figure">
+                    <img
+                      class="card__image aspect-square radius-medium"
+                      src="https://i.pinimg.com/564x/fc/d9/92/fcd992555d1e47969c67cac4e1c72d47.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__body d-flex flex-column gap-20">
+                    <h3 class="card__title h5 weight-400 color-text-heading">
+                      10 secrets to connect with your audience through your
+                      website and blog
+                    </h3>
+                    <p
+                      class="card__subtitle f-sans paragraph-1 color-text-light spacing-small"
+                    >
+                      It is not the same to write a blog with simple information
+                      as to write by connecting with your target.
+                    </p>
+                    <div class="card__date d-flex gap-20">
+                      <span class="paragraph-3 color-text-light f-sans">
+                        <i
+                          class="fa-solid fa-calendar-days color-main-blue"
+                        ></i>
+                        May 7, 2022
+                      </span>
+                      <span class="paragraph-3 color-text-light f-sans">
+                        <i class="fa-regular fa-clock color-main-blue"></i> 10
+                        min read
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-xl: 4">
+                <div class="d-flex flex-column gap-20">
+                  <div
+                    class="card card__spacing d-flex gap- row-reverse border-bottom"
+                  >
+                    <div class="card__figure">
+                      <img
+                        class="card-image__child aspect-square radius-medium"
+                        src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card__body d-flex flex-column gap-30">
+                      <h3 class="card__title h5 weight-400 color-text-heading">
+                        10 secrets to connect with your audience through your
+                        website and blog
+                      </h3>
+                      <div class="card__date d-flex gap-20">
+                        <span class="paragraph-3 color-text-light f-sans">
+                          <i
+                            class="fa-solid fa-calendar-days color-main-blue"
+                          ></i>
+                          May 7, 2022
+                        </span>
+                        <span class="paragraph-3 color-text-light f-sans">
+                          <i class="fa-regular fa-clock color-main-blue"></i> 10
+                          min read
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card card__spacing d-flex gap-20 row-reverse border-bottom"
+                  >
+                    <div class="card__figure">
+                      <img
+                        class="card-image__child aspect-square radius-medium"
+                        src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card__body d-flex flex-column gap-30">
+                      <h3 class="card__title h5 weight-400 color-text-heading">
+                        10 secrets to connect with your audience through your
+                        website and blog
+                      </h3>
+                      <div class="card__date d-flex gap-20">
+                        <span class="paragraph-3 color-text-light f-sans">
+                          <i
+                            class="fa-solid fa-calendar-days color-main-blue"
+                          ></i>
+                          May 7, 2022
+                        </span>
+                        <span class="paragraph-3 color-text-light f-sans">
+                          <i class="fa-regular fa-clock color-main-blue"></i> 10
+                          min read
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="card card__spacing d-flex gap-20 row-reverse border-bottom"
+                  >
+                    <div class="card__figure">
+                      <img
+                        class="card-image__child aspect-square radius-medium"
+                        src="https://i.pinimg.com/564x/58/e2/5b/58e25b5b12615ad3cda271a057d47afd.jpg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card__body d-flex flex-column gap-30">
+                      <h3 class="card__title h5 weight-400 color-text-heading">
+                        10 secrets to connect with your audience through your
+                        website and blog
+                      </h3>
+                      <div class="card__date d-flex gap-20">
+                        <span class="paragraph-3 color-text-light f-sans">
+                          <i
+                            class="fa-solid fa-calendar-days color-main-blue"
+                          ></i>
+                          May 7, 2022
+                        </span>
+                        <span class="paragraph-3 color-text-light f-sans">
+                          <i class="fa-regular fa-clock color-main-blue"></i> 10
+                          min read
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer bg-dark-light">
+        <div class="footer__block-wrapper container">
+          <div class="row pd-100">
+            <div class="col" style="--w-xl: 2">
+              <img
+                src="./assets/image/logo-footer.png"
+                alt=""
+                class="footer__image"
+              />
+            </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
                   </a>
                 </li>
-                <li class="nav-icon__item">
-                  <a href="" class="d-block">
-                    <img
-                      src="./assets/image/tw.png"
-                      alt=""
-                      class="nav-icon__image"
-                    />
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
                   </a>
                 </li>
-                <li class="nav-icon__item">
-                  <a href="" class="d-block">
-                    <img
-                      src="./assets/image/in.png"
-                      alt=""
-                      class="nav-icon__image"
-                    />
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
                   </a>
                 </li>
               </ul>
             </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col" style="--w-xl: 4">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Newsletter
+              </h2>
+              <div class="footer-content__text f-sans color-white hsub-1">
+                Subscribe to our newsletter to keep up to date on our marketing,
+                website, design services, and tips.
+              </div>
+              <div class="footer-form d-flex flex-row gap-5">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Email enter"
+                  class="input radius-small input-outline__none border-solid__light input-spacing__medium w-full"
+                />
+                <button
+                  class="button radius-small button-bg__primary button-spacing__primary text-uppercase f-outfit"
+                >
+                  Submit
+                </button>
+              </div>
+              <div class="footer-content__text f-sans color-white hsub-1">
+                We hate spam as much as you do. We will never, ever send you
+                such emails.
+              </div>
+            </div>
           </div>
-        </footer>
-        <!-- end footer -->
-      </div>
-</body>
+          <div
+            class="footer-box__sub border-top d-flex justify-between align-center"
+          >
+            <div class="color-text-gray f-sans hsub-1">
+              © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
+              Privacy Policy.
+            </div>
+            <ul class="nav-icon unstyled d-flex gap-20">
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/face.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/tw.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/in.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <!-- end footer -->
+    </div>
+  </body>
 </html>

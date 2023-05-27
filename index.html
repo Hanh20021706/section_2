@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/home.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -21,181 +23,990 @@
   </head>
 
   <body>
-    <div class="wapper">
-      <header class="page-header bg-light-2">
-        <div class="container d-flex justify-between align-center">
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header bg-light-2">
+        <div class="header-main container d-flex justify-between align-center">
           <div class="header-logo">
-            <a href="#" class="link">
+            <a href="" class="header-logo__link">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Disney_wordmark.svg/2560px-Disney_wordmark.svg.png"
+                class="header-logo__image"
+                src="./assets/image/logo.png"
                 alt=""
-                class="logo-image"
               />
             </a>
           </div>
-          <nav class="header-nav">
-            <ul class="nav-list unstyled d-flex gap-30">
-              <li class="nav-item relative d-flex justify-center">
+          <nav class="main-nav">
+            <ul class="main-nav__list gap-30 unstyled d-flex align-center">
+              <li class="main-nav__item">
                 <a
-                  href="#"
-                  class="nav-item__link link hsub-2 decoration-none color-text-heading"
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
                   >Home</a
                 >
-                <div class="item-hover__active absolute radius-big"></div>
               </li>
-              <li class="nav-item">
+              <li class="main-nav__item">
                 <a
-                  href="#"
-                  class="nav-item__link link hsub-2 decoration-none color-text-light"
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
                   >Services</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="main-nav__item">
                 <a
-                  href="#"
-                  class="nav-item__link link hsub-2 decoration-none color-text-light"
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
                   >About</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="main-nav__item">
                 <a
-                  href="#"
-                  class="nav-item__link link hsub-2 decoration-none color-text-light"
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
                   >Pages</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="main-nav__item">
                 <a
-                  href="#"
-                  class="nav-item__link link hsub-2 decoration-none color-text-light"
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
                   >Blog</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="main-nav__item">
                 <a
-                  href="#"
-                  class="nav-item__link link hsub-2 decoration-none color-text-light"
+                  href=""
+                  class="main-nav__link f-outfit hsub-2 color-text-light decoration-none"
                   >Contact</a
                 >
               </li>
             </ul>
           </nav>
-          <div class="header-action d-flex justify-between align-center">
-            <div class="action-item">
-              <a href="#" class="link">
-                <i class="fa-solid fa-magnifying-glass color-text-light"></i>
+          <div class="header-action gap-20 d-flex justify-between align-center">
+            <div class="header-action__item">
+              <a href="" class="header-action__link">
+                <i
+                  class="fa-solid header-action__icon fa-magnifying-glass color-text-light"
+                ></i>
               </a>
             </div>
-            <div class="action-item relative">
-              <a href="#" class="link">
-                <i class="fa-solid fa-bag-shopping color-text-light"></i>
+            <div class="header-action__item">
+              <a href="" class="header-action__link">
+                <i
+                  class="fa-solid header-action__icon fa-bag-shopping color-text-light"
+                ></i>
               </a>
-              <div class="item-card__active absolute radius-big"></div>
             </div>
-            <div class="action-item">
+            <div class="header-action__item">
               <button
-                class="button radius-small button-bg__primary action-item__button text-uppercase"
+                class="button f-outfit radius-small button-bg__primary button-spacing__primary"
               >
                 Sign Up
               </button>
             </div>
           </div>
         </div>
-      </header>
-      <section class="page-section pb-120 bg-light-2 page-section__height">
-        <div class="container relative">
-          <div class="banner-content d-flex flex-column align-center">
-            <h2 class="banner-content__title h0 text-center">
-              Everything we do to make
-              <span class="color-gradient-blue"> work better. </span>
-            </h2>
-            <p
-              class="banner-content__text text paragraph-1 text-center color-text-light"
+        <div class="header-banner container text-center pb-120">
+          <div class="box-text__small relative">
+            <div class="">
+              <h2 class="h0 color-text-heading">
+                Everything we do to make
+                <span class="color-gradient-blue">work better.</span>
+              </h2>
+              <p class="f-sans paragraph-1 color-text-light">
+                Find the right space, services, and support, so your business
+                and its people can work their way, every day.
+              </p>
+            </div>
+            <div
+              class="banner-action d-flex gap-10 align-center justify-center"
             >
-              Find the right space, services, and support, so your business and
-              its people can work their way, every day.
-            </p>
-            <div class="banner-action d-flex flex-row">
               <button
-                class="button button-action__primary pointer button-bg__primary radius-small"
+                class="button text-uppercase hsub-2 button-bg__primary radius-small button-spacing__primary"
               >
                 Book Now
               </button>
-              <button class="button d-flex align-center">
-                <span
-                  class="button-play justify-center radius-big d-flex align-center pointer"
-                >
-                  <i class="fa-solid fa-play color-main-blue"></i
-                ></span>
-                <span class="button-play__text d-flex link">
-                  How It Works
-                </span>
+              <button
+                class="button d-flex justify-center button__play shadow-primary radius-big"
+              >
+                <i class="fa-solid fa-play"></i>
               </button>
+              <span class="f-sans hsub-2 color-text-heading weight-500">
+                How It Works
+              </span>
             </div>
           </div>
-          <div class="d-flex relative wrapper-image__spacing">
-            <div class="relative">
-              <div class="banner-intro absolute absolute-left__medium">
-                <div
-                  class="intro-item bg-main-origin relative bg-width__big radius-bottom__left after--big__bottom--right"
-                >
-                  <img
-                    src="./assets/image/user-1.png"
-                    alt=""
-                    class="intro-item__img absolute radius-bottom__left"
-                  />
-                </div>
-              </div>
-              <div class="banner-intro">
-                <div
-                  class="intro-item bg-main-origin relative bg-width__small radius-bottom__left after--small__bottom--right"
-                >
-                  <img
-                    src="./assets/image/user-1.png"
-                    alt=""
-                    class="intro-item__img absolute radius-bottom__left"
-                  />
-                </div>
-              </div>
+          <div class="relative">
+            <div
+              class="relative after--big__bottom--right banner__figure bg-width__big bg-box-yellow radius-bottom__left"
+            >
+              <img
+                class="banner-user__image bg-width__big radius-bottom__left"
+                src="./assets/image/user-1.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
-      </section>
-      <section class="page-section pb-120">
-        <div class="container">
-          <div class="tex-box text-box__width--big">
-            <h2 class="service-title text-center h2 color-text-heading">
+      </header>
+      <!-- end header -->
+      <main class="main">
+        <section class="page-section pb-120 container">
+          <div class="box-text__large text-center d-flex flex-column gap-30">
+            <h2 class="h2 color-text-heading">
               From a single desk to a whole building. The choice is yours.
             </h2>
-            <p class="service-text text-center color-text-light paragraph-1">
+            <p class="f-sans paragraph-1 color-text-light">
               We provide office space that’s flexible to your needs and fully
               customisable.
             </p>
-            <div class="service-list">
-              <div class="row">
-                <div class="col" style="--w-xl: 4">
-                  <div class="card">
-                    <div class="card-media">
-                      <img
-                        src="./assets/image/icon.jpg"
-                        alt=""
-                        class="media-item"
-                      />
-                    </div>
-                    <div class="card-body">
-                      <h3 class="card-body__title">Private Office</h3>
-                      <div class="card-body__text">
-                        Our coworking spaces are designed with collaboration in
-                        mind.
-                      </div>
-                    </div>
+          </div>
+          <div class="row service-wrapper">
+            <div class="col" style="--w-sm: 12; --w-xl: 4">
+              <div
+                class="service-card align-center border-solid__light radius-normal d-flex flex-column gap-30"
+              >
+                <div class="card__figure">
+                  <img
+                    class="service-card__img radius-big"
+                    src="https://i.pinimg.com/564x/3e/eb/02/3eeb023d16e6fb7669c896e4bb64d5f5.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="service-card__body text-center">
+                  <h3 class="service-card__title h5 color-text-heading">
+                    Private Office
+                  </h3>
+                  <p class="f-sans paragraph-2 color-text-light">
+                    Our coworking spaces are designed with collaboration in
+                    mind.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col" style="--w-sm: 12; --w-xl: 4">
+              <div
+                class="service-card shadow-blue align-center border-solid__light radius-normal d-flex flex-column gap-30"
+              >
+                <div class="card__figure">
+                  <img
+                    class="service-card__img radius-big"
+                    src="https://i.pinimg.com/564x/3e/eb/02/3eeb023d16e6fb7669c896e4bb64d5f5.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="service-card__body text-center">
+                  <h3 class="service-card__title h5 color-text-heading">
+                    Private Office
+                  </h3>
+                  <p class="f-sans paragraph-2 color-text-light">
+                    Our coworking spaces are designed with collaboration in
+                    mind.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col" style="--w-sm: 12; --w-xl: 4">
+              <div
+                class="service-card relative after--small__bottom--right align-center border-solid__light radius-normal d-flex flex-column gap-30"
+              >
+                <div class="card__figure">
+                  <img
+                    class="service-card__img radius-big"
+                    src="https://i.pinimg.com/564x/3e/eb/02/3eeb023d16e6fb7669c896e4bb64d5f5.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="service-card__body text-center">
+                  <h3 class="service-card__title h5 color-text-heading">
+                    Private Office
+                  </h3>
+                  <p class="f-sans paragraph-2 color-text-light">
+                    Our coworking spaces are designed with collaboration in
+                    mind.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              class="button button-bg__primary text-uppercase radius-small button-spacing__primary"
+            >
+              View Our Services
+            </button>
+          </div>
+        </section>
+        <section class="page-section">
+          <div class="box-text__medium text-center">
+            <h2 class="h4">
+              Working with the most trusted brands in the industry
+            </h2>
+          </div>
+          <div class="brand__list d-flex justify-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+              alt=""
+              class="brand__image"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1200px-Netflix_2015_logo.svg.png"
+              alt=""
+              class="brand__image"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Slack_Technologies_Logo.svg/2560px-Slack_Technologies_Logo.svg.png"
+              alt=""
+              class="brand__image"
+            />
+            <img
+              src="https://seekvectorlogo.com/wp-content/uploads/2022/02/intercom-vector-logo-2022.png"
+              alt=""
+              class="brand__image"
+            />
+          </div>
+        </section>
+        <section class="page-section pb-120">
+          <div class="benefit-wrapper bg-light-2 pd-100">
+            <div class="row">
+              <div class="col" style="--w-sm: 12; --w-xl: 4">
+                <div class="benefit-card">
+                  <h2 class="benefit-card__title h4 color-text-heading">
+                    Lockable office space for teams of all sizes
+                  </h2>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 4">
+                <div class="benefit-card d-flex flex-row gap-30">
+                  <div class="benefit-card__figure">
+                    <img
+                      src="https://i.pinimg.com/564x/5b/26/07/5b26079462dfbdfa329442eeddba80c4.jpg"
+                      alt=""
+                      class="benefit-card__image radius-big"
+                    />
+                  </div>
+                  <div class="benefit-card__body d-flex flex-column gap-10">
+                    <h3 class="benefit-card__title h6 color-text-heading">
+                      Office Membership
+                    </h3>
+                    <p class="f-sans color-text-light">
+                      Book a day pass for a seat in our coworking spaces with
+                      access to amenities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 4">
+                <div class="benefit-card d-flex flex-row gap-30">
+                  <div class="benefit-card__figure">
+                    <img
+                      src="https://i.pinimg.com/564x/5b/26/07/5b26079462dfbdfa329442eeddba80c4.jpg"
+                      alt=""
+                      class="benefit-card__image radius-big"
+                    />
+                  </div>
+                  <div class="benefit-card__body d-flex flex-column gap-10">
+                    <h3 class="benefit-card__title h6 color-text-heading">
+                      Office Membership
+                    </h3>
+                    <p class="f-sans color-text-light">
+                      Book a day pass for a seat in our coworking spaces with
+                      access to amenities.
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </section>
+        <section class="page-section">
+          <div class="featured-collection container">
+            <div class="row">
+              <div class="col" style="--w-sm: 12; --w-xl: 6">
+                <div
+                  class="featured__figure after--large__bottom--left relative"
+                >
+                  <img
+                    class="featured__image radius-normal aspect-square"
+                    src="https://i.pinimg.com/564x/08/1d/b2/081db28a7129f1404b90bf7f02b4e2d2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="featured__body">
+                  <div class="d-flex justify-between">
+                    <h3 class="h5 color-text-heading">
+                      229 West 36th Street. New York, USA.
+                    </h3>
+                    <span class="f-sans color-text-light hsub-1">
+                      From $49/mo
+                    </span>
+                  </div>
+                  <p class="featured__headingsub f-sans color-text-light h6">
+                    We’re prioritising the health and safety of all members and
+                    employees in our spaces so you can continue working with
+                    peace of mind.
+                  </p>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 6">
+                <div class="featured-content d-flex flex-column">
+                  <h2 class="h3 color-text-heading">
+                    Featured office space locations
+                  </h2>
+                  <p
+                    class="featured-content__headingsub paragraph-1 f-sans color-text-light"
+                  >
+                    Whether you’re an established enterprise or a scaling
+                    startup, find an office space that's right for you.
+                  </p>
+                  <a
+                    href=""
+                    class="decoration-none d-flex align-center gap-10 hsub-2 f-outfit color-main-purple"
+                  >
+                    View All Buildings <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                  <div class="featured-content__button d-flex gap-20">
+                    <button
+                      class="featured__button__prc bg-white border-solid__light radius-big d-flex align-center"
+                    >
+                      <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button
+                      class="featured__button__append bg-white border-solid__light radius-big d-flex align-center shadow-blue"
+                    >
+                      <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section mt-120 pd-100 bg-light-2">
+          <div class="container">
+            <div class="box-text__medium text-center">
+              <h2 class="h2 color-text-heading">
+                <span class="color-gradient-blue"> Office space </span> your
+                way. Work wherever business takes you
+              </h2>
+              <p class="f-sans color-text-light mt-30 paragraph-1">
+                From a single desk to a whole building. The choice is yours
+              </p>
+            </div>
+            <div class="office-wrapper">
+              <div
+                class="office__figure d-flex justify-end after--big__bottom--right relative"
+              >
+                <img
+                  src="https://i.pinimg.com/564x/39/49/7d/39497db26345f69112f2221a5af4eeae.jpg"
+                  alt=""
+                  class="office__image radius-normal"
+                />
+
+                <div
+                  class="office__space bg-white absolute radius-normal border-solid__light"
+                >
+                  <h5>
+                    <a
+                      href=""
+                      class="f-sans paragraph-1 decoration-none color-main-blue"
+                    >
+                      Office Space
+                    </a>
+                  </h5>
+                  <h3 class="h4 color-text-heading mt-30">
+                    Flexible workspace designed around your needs and comfort
+                  </h3>
+                  <p class="mt-30 f-sans color-text-light paragraph-1">
+                    Whether you need a single desk or a whole building, we
+                    provide office space that’s flexible to your needs and fully
+                    customisable. Available for a day, or as long as you need.
+                  </p>
+                  <a
+                    href=""
+                    class="decoration-none d-flex align-center gap-10 mt-30 f-sans text-uppercase color-text-light"
+                  >
+                    Learn more <i class="fa-solid fa-arrow-right"></i>
+                  </a>
+                </div>
+                <div class="office__figure__sub absolute">
+                  <img
+                    src="https://i.pinimg.com/564x/1c/72/93/1c7293afa416f1a1a51c3c723536bba9.jpg"
+                    alt=""
+                    class="figure__img__sub radius-normal"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section pb-120">
+          <div class="box-text__large text-center">
+            <h2 class="h3 color-text-heading">
+              With over
+              <span class="color-gradient-blue">3,000 locations</span> globally
+              we have offices, and meeting rooms in every major city
+            </h2>
+          </div>
+          <div class="container">
+            <div class="row mt-100 gap-column-50">
+              <div class="col" style="--w-sm: 12; --w-xl: 7">
+                <div class="detail-collection__card">
+                  <div
+                    class="collection-card__figure after--large__bottom--left__blue relative"
+                  >
+                    <img
+                      src="https://i.pinimg.com/564x/9d/56/92/9d5692c151144bd247d358b91e349a2d.jpg"
+                      alt=""
+                      class="collection-card__image radius-medium__secondary"
+                    />
+                  </div>
+                  <h3 class="collection-card__title">
+                    <a
+                      href=""
+                      class="mt-30 d-flex decoration-none color-main-blue h5"
+                    >
+                      New York
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 5">
+                <div class="detail-collection__card">
+                  <div class="collection-card__figure relative">
+                    <img
+                      src="https://i.pinimg.com/564x/e9/d4/66/e9d4668d9e1cca16c4fbfa23047b9a69.jpg"
+                      alt=""
+                      class="collection-card__image radius-medium__secondary"
+                    />
+                  </div>
+                  <h3 class="collection-card__title">
+                    <a
+                      href=""
+                      class="mt-30 d-flex decoration-none color-main-blue h5"
+                    >
+                      New York
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 5">
+                <div class="detail-collection__card">
+                  <div class="collection-card__figure relative">
+                    <img
+                      src="https://i.pinimg.com/564x/e9/d4/66/e9d4668d9e1cca16c4fbfa23047b9a69.jpg"
+                      alt=""
+                      class="collection-card__image radius-medium__secondary"
+                    />
+                  </div>
+                  <h3 class="collection-card__title">
+                    <a
+                      href=""
+                      class="mt-30 d-flex decoration-none color-main-blue h5"
+                    >
+                      New York
+                    </a>
+                  </h3>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 7">
+                <div class="detail-collection__card">
+                  <div class="collection-card__figure relative">
+                    <img
+                      src="https://i.pinimg.com/564x/e9/d4/66/e9d4668d9e1cca16c4fbfa23047b9a69.jpg"
+                      alt=""
+                      class="collection-card__image radius-medium__secondary"
+                    />
+                  </div>
+                  <h3 class="collection-card__title">
+                    <a
+                      href=""
+                      class="mt-30 d-flex decoration-none color-main-blue h5"
+                    >
+                      New York
+                    </a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section container pb-120">
+          <div class="box-text__medium text-center">
+            <h2 class="color-text-heading h2">
+              Set up your office, pick a plan later
+            </h2>
+            <p class="mt-30 f-sans paragraph-1 color-text-light">
+              Try Shopify free for 14 days, no credit card required
+            </p>
+          </div>
+          <div class="mt-100">
+            <div class="row">
+              <div class="col" style="--w-sm: 12; --w-xl: 6">
+                <div
+                  class="card-buy bg-white d-flex flex-column gap-40 border-solid__light radius-small"
+                >
+                  <div
+                    class="card__header-buy d-flex flex-column gap-10 text-center"
+                  >
+                    <h5 class="">
+                      <a
+                        href=""
+                        class="decoration-none color-main-blue paragraph-1"
+                      >
+                        Freelance
+                      </a>
+                    </h5>
+                    <span class="f-outfit">
+                      $ <span class="h4">19</span> /mo
+                    </span>
+                    <p class="f-sans color-text-heading">
+                      Best for new startups or businesses with occasional
+                      in-person sales
+                    </p>
+                    <ul
+                      class="card-buy__list mt-30 unstyled d-flex flex-column gap-20"
+                    >
+                      <li class="d-flex gap-10 align-center">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="f-outfit color-text-heading h6"
+                          >Fully-furnished and serviced</span
+                        >
+                      </li>
+                      <li class="d-flex gap-10 align-center">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="f-outfit color-text-heading h6"
+                          >Fully-furnished and serviced</span
+                        >
+                      </li>
+                      <li class="d-flex gap-10 align-center">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="f-outfit color-text-heading h6"
+                          >Fully-furnished and serviced</span
+                        >
+                      </li>
+                      <li class="d-flex gap-10 align-center">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="f-outfit color-text-heading h6"
+                          >Fully-furnished and serviced</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    class="button button-bg__primary button-spacing__primary radius-small"
+                  >
+                    Start your free trial
+                  </button>
+                </div>
+              </div>
+              <div class="col" style="--w-sm: 12; --w-xl: 6">
+                <div
+                  class="card-buy bg-white d-flex flex-column gap-40 border-solid__light radius-small"
+                >
+                  <div
+                    class="card__header-buy d-flex flex-column gap-10 text-center"
+                  >
+                    <h5 class="">
+                      <a
+                        href=""
+                        class="decoration-none color-main-blue paragraph-1"
+                      >
+                        Freelance
+                      </a>
+                    </h5>
+                    <span class="f-outfit">
+                      $ <span class="h4">19</span> /mo
+                    </span>
+                    <p class="f-sans color-text-heading">
+                      Best for new startups or businesses with occasional
+                      in-person sales
+                    </p>
+                    <ul
+                      class="card-buy__list mt-30 unstyled d-flex flex-column gap-20"
+                    >
+                      <li class="d-flex gap-10 align-center">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="f-outfit color-text-heading h6"
+                          >Fully-furnished and serviced</span
+                        >
+                      </li>
+                      <li class="d-flex gap-10 align-center">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="f-outfit color-text-heading h6"
+                          >Fully-furnished and serviced</span
+                        >
+                      </li>
+                      <li class="d-flex gap-10 align-center">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="f-outfit color-text-heading h6"
+                          >Fully-furnished and serviced</span
+                        >
+                      </li>
+                      <li class="d-flex gap-10 align-center">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span class="f-outfit color-text-heading h6"
+                          >Fully-furnished and serviced</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <button
+                    class="button button-bg__primary button-spacing__primary radius-small"
+                  >
+                    Start your free trial
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page-section">
+          <div class="box-text__medium text-center">
+            <h2 class="h2 color-text-heading">
+              Find your perfect
+              <span class="color-gradient-blue">workspace.</span>
+            </h2>
+            <p class="mt-30 f-sans h5 color-text-light">
+              Whether you’re a team of one, a growing startup or a Fortune 500
+              company – we have flexible solutions for all the ways you work.
+            </p>
+            <button
+              class="button button-bg__primary button-spacing__primary radius-small mt-100 text-uppercase"
+            >
+              Talk to an expert
+            </button>
+          </div>
+        </section>
+
+        <section class="page-section pb-120 bg-light-2 mt-100">
+          <div class="box-text__medium text-center">
+            <h2 class="h2 color-text-heading">
+              What our clients are saying about us
+            </h2>
+            <p class="mt-30 h5 f-sans color-text-light">
+              Customer satisfaction is a primary goal for our company
+            </p>
+          </div>
+          <div class="container">
+            <div class="row mt-80">
+              <div class="col" style="--w-sm:12; --w-xl:4">
+                <div
+                  class="about__card after--medium__top--right relative bg-white border-solid__light radius-medium d-flex flex-column align-center"
+                >
+                  <div class="card__figure">
+                    <img
+                      class="about-card__image radius-big"
+                      src="https://i.pinimg.com/564x/8c/a1/26/8ca126ae8b65e887c5a67ac667d72683.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__header text-center">
+                    <h3 class="h5 color-text-heading">Monica Smith</h3>
+                    <span class="f-sans color-text-light"> Web Designer </span>
+                    <div class="card__header__star d-flex gap-10 justify-center">
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="about-card__body text-center">
+                    <p
+                      class="f-sans paragraph-1 about-card__body-text color-text-light"
+                    >
+                      Overall experience is awesome!! I'm a visual thinker, and
+                      I couldn't function without a tool like this.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-sm:12; --w-xl:4">
+                <div
+                  class="about__card bg-white border-solid__light radius-medium d-flex flex-column align-center"
+                >
+                  <div class="card__figure">
+                    <img
+                      class="about-card__image radius-big"
+                      src="https://i.pinimg.com/564x/8c/a1/26/8ca126ae8b65e887c5a67ac667d72683.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__header text-center">
+                    <h3 class="h5 color-text-heading">Monica Smith</h3>
+                    <span class="f-sans color-text-light"> Web Designer </span>
+                    <div class="card__header__star d-flex gap-10 justify-center">
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="about-card__body text-center">
+                    <p
+                      class="f-sans paragraph-1 about-card__body-text color-text-light"
+                    >
+                      Overall experience is awesome!! I'm a visual thinker, and
+                      I couldn't function without a tool like this.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col" style="--w-sm:12; --w-xl:4">
+                <div
+                  class="about__card bg-white border-solid__light radius-medium d-flex flex-column align-center"
+                >
+                  <div class="card__figure">
+                    <img
+                      class="about-card__image radius-big"
+                      src="https://i.pinimg.com/564x/8c/a1/26/8ca126ae8b65e887c5a67ac667d72683.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="card__header text-center">
+                    <h3 class="h5 color-text-heading">Monica Smith</h3>
+                    <span class="f-sans color-text-light"> Web Designer </span>
+                    <div class="card__header__star d-flex gap-10 justify-center">
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                      <span>
+                        <i class="fa-solid fa-star color-main-origin"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="about-card__body text-center">
+                    <p
+                      class="f-sans paragraph-1 about-card__body-text color-text-light"
+                    >
+                      Overall experience is awesome!! I'm a visual thinker, and
+                      I couldn't function without a tool like this.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer bg-dark-light">
+        <div class="footer__block-wrapper container">
+          <div class="row pd-100">
+            <div class="col" style="--w-xl: 2">
+              <img
+                src="./assets/image/logo-footer.png"
+                alt=""
+                class="footer__image"
+              />
+            </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col" style="--w-xl: 2">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Company
+              </h2>
+              <ul class="footer-nav__list d-flex flex-column">
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    About
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Work
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Careers
+                  </a>
+                </li>
+                <li class="footer-nav__item unstyled">
+                  <a
+                    href=""
+                    class="decoration-none color-white f-outfit d-block text-uppercase spacing-small"
+                  >
+                    Pricing
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col" style="--w-xl: 4">
+              <h2 class="footer-block__heading color-white weight-400 h5">
+                Newsletter
+              </h2>
+              <div class="footer-content__text f-sans color-white hsub-1">
+                Subscribe to our newsletter to keep up to date on our marketing,
+                website, design services, and tips.
+              </div>
+              <div class="footer-form d-flex flex-row gap-5">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Email enter"
+                  class="input radius-small input-outline__none border-solid__light input-spacing__medium w-full"
+                />
+                <button
+                  class="button radius-small button-bg__primary button-spacing__primary text-uppercase f-outfit"
+                >
+                  Submit
+                </button>
+              </div>
+              <div class="footer-content__text f-sans color-white hsub-1">
+                We hate spam as much as you do. We will never, ever send you
+                such emails.
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer-box__sub border-top d-flex justify-between align-center"
+          >
+            <div class="color-text-gray f-sans hsub-1">
+              © 2022 Pollock LLC. All Rights Reserved. Terms & Conditions.
+              Privacy Policy.
+            </div>
+            <ul class="nav-icon unstyled d-flex gap-20">
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/face.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/tw.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+              <li class="nav-icon__item">
+                <a href="" class="d-block">
+                  <img
+                    src="./assets/image/in.png"
+                    alt=""
+                    class="nav-icon__image"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </section>
+      </footer>
+      <!-- end footer -->
     </div>
   </body>
 </html>
