@@ -7,11 +7,12 @@
 /* 
 card post
 */
-.card__body{
+.card-post__body{
     padding: 25px 40px 43px 40px;
     gap: 30px;
 }
-.author__image{
+
+.post__author__image{
     width: 32px;
     height: 32px;
 }
@@ -51,7 +52,9 @@ aside
     line-height: 1.7;
     letter-spacing: -0.3px;
 }
-
+.list-tabs__link{
+    padding: 2px 5px;
+}
 .select-group{
     padding: 11px 15px;
 }

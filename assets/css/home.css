@@ -199,10 +199,10 @@ page section banner
   width: 70px;
   height: 70px;
 }
-.featured__body{
+.featured-card__body{
   margin-top: 40px;
 }
-.featured__headingsub{
+.featured-card__headingsub{
   margin-top: 25px;
 }
 .featured-content{
@@ -219,45 +219,41 @@ page section banner
 .featured__button__prc , .featured__button__append{
   padding: 20px 24px;
 }
-.office__figure{
+.office-figure{
   margin-top: 330px;
 }
-.office__image{
+.office-image{
   max-width: 870px;
   max-height: 450px;
 }
-.office__space{
+.office-space{
   top: -250px;
   max-width: 570px;
   left: 0;
   padding: 60px 100px;
 }
-.office__figure__sub{
+.office-figure__sub{
   top: -130px;
   right: 99px;
 }
-.figure__img__sub{
+.figure-img__sub{
   width: 370px;
   height: 230px;
 }
 
 
-.collection-card__image{
+.detail-collection__card__figure__image{
   max-height: 580px;
 }
 
-.card__header-buy{
+.card-buy__header{
 
   padding-inline: 100px;
-}
-.card-buy{
-}
-.card__header-buy{
   margin-top: 35px;
 }
 
 
-.about__card{
+.about-card{
   padding: 35px 35px 45px 35px;
 }
 .about-card__image{
@@ -271,7 +267,4 @@ page section banner
 .about-card__body-text{
   margin-top: 25px;
 }
-.card__header__star{
-  margin-top: 20px;
-}
-.card__header__star{}
+

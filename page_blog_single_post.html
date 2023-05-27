@@ -97,7 +97,7 @@
             </div>
             <div class="header-action__item">
               <button
-                class="button f-outfit radius-small button-bg__primary button-spacing__primary"
+                class="button f-outfit radius-small button-bg--primary button-spacing--primary"
               >
                 Sign Up
               </button>
@@ -105,7 +105,7 @@
           </div>
         </div>
         <div class="header-banner text-center pb-120">
-          <h2 class="banner__title h2 color-text-heading">Our Latest News</h2>
+          <h2 class="banner-title h2 color-text-heading">Our Latest News</h2>
           <span
             class="banner-router f-outfit color-text-heading text-uppercase"
           >
@@ -248,17 +248,24 @@
                   <div
                     class="border-bottom card__footer d-flex justify-between align-center"
                   >
-                    <div class="d-flex gap-5">
-                      <button class="button button-bg__primary radius-small">
-                        fintech
-                      </button>
-                      <button class="button button-bg__primary radius-small">
-                        news
-                      </button>
-                      <button class="button button-bg__primary radius-small">
-                        technology
-                      </button>
-                    </div>
+                  <div class="list-tabs d-flex flex-wrap gap-5">
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
+                      api
+                    </a>
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
+                      apps
+                    </a>
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
+                      branding
+                    </a>
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
+                      design
+                    </a>
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
+                      development 
+                    </a>
+                
+                  </div>
                     <ul class="card-icon unstyled d-flex">
                       <li class="card-icon__item">
                         <a href="" class="color-text-light">
@@ -319,7 +326,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="comment-wrapper border-solid__light radius-small">
+                <div class="comment-wrapper border-solid--light radius-small">
                     <h3 class="comment__title">Comments</h3>
                     <div class="comment__item gap-30 border-top d-flex">
                       <div class="comment__figure">
@@ -416,14 +423,14 @@
                             Write a Comment
                         </h3>
                         <div class="d-flex justify-between gap-20">
-                            <input type="text" name="" id="" class="border-solid__light w-full input-outline__none radius-small input-spacing__medium" placeholder="Name">
-                            <input type="text" name="" id="" class="border-solid__light w-full input-outline__none radius-small input-spacing__medium" placeholder="Email">
-                            <input type="text" name="" id="" class="border-solid__light w-full input-outline__none radius-small input-spacing__medium" placeholder="Website">
+                            <input type="text" name="" id="" class="border-solid--light w-full input-outline--none radius-small input-spacing--medium" placeholder="Name">
+                            <input type="text" name="" id="" class="border-solid--light w-full input-outline--none radius-small input-spacing--medium" placeholder="Email">
+                            <input type="text" name="" id="" class="border-solid--light w-full input-outline--none radius-small input-spacing--medium" placeholder="Website">
                         </div>
                         <div class="">
-                            <textarea placeholder="Enter comment" class="radius-small input-spacing__medium form-input__text input-outline__none w-full border-solid__light" name="" id="" cols="30" rows="10"></textarea>
+                            <textarea placeholder="Enter comment" class="radius-small input-spacing--medium form-input__text input-outline--none w-full border-solid--light" name="" id="" cols="30" rows="10"></textarea>
                         </div>
-                        <button class="button button-spacing__primary button-bg__primary radius-small text-uppercase ">
+                        <button class="button button-spacing--primary button-bg--primary radius-small text-uppercase ">
                             Submit
                         </button>
                   </form>
@@ -438,11 +445,11 @@
                       Search
                     </label>
                     <div
-                      class="input-group bg-white d-flex justify-between border-solid__light radius-small"
+                      class="input-group bg-white d-flex justify-between border-solid--light radius-small"
                     >
                       <input
                         type="text"
-                        class="input-group__input input input-outline__none"
+                        class="input-group__input input input-outline--none"
                         placeholder="Enter email"
                         name=""
                         id=""
@@ -464,9 +471,11 @@
                         alt=""
                         class="popup__image"
                       />
-                      <h4 class="popup__title f-sans hsub-3">
-                        Start Your First Week Of A New Job Like A Boss
-                      </h4>
+                      <h4 class="popup-title ">
+                        <a class="f-sans hsub-3 color-text-light decoration-none" href="">
+                          Start Your First Week Of A New Job Like A Boss
+                        </a>
+                       </h4>
                     </div>
                     <div class="list-popup__item gap-20 d-flex">
                       <img
@@ -474,9 +483,11 @@
                         alt=""
                         class="popup__image"
                       />
-                      <h4 class="popup__title f-sans hsub-3">
-                        Start Your First Week Of A New Job Like A Boss
-                      </h4>
+                      <h4 class="popup-title ">
+                        <a class="f-sans hsub-3 color-text-light decoration-none" href="">
+                          Start Your First Week Of A New Job Like A Boss
+                        </a>
+                       </h4>
                     </div>
                     <div class="list-popup__item gap-20 d-flex">
                       <img
@@ -484,8 +495,10 @@
                         alt=""
                         class="popup__image"
                       />
-                      <h4 class="popup__title f-sans hsub-3">
-                        Start Your First Week Of A New Job Like A Boss
+                      <h4 class="popup-title ">
+                       <a class="f-sans hsub-3 color-text-light decoration-none" href="">
+                         Start Your First Week Of A New Job Like A Boss
+                       </a>
                       </h4>
                     </div>
                   </div>
@@ -497,35 +510,33 @@
                   <select
                     name=""
                     id=""
-                    class="w-full border-solid__light select-group radius-small"
+                    class="w-full border-solid--light select-group radius-small"
                   >
                     <option value="">select</option>
                   </select>
                 </div>
-
+  
                 <div class="aside-item bg-light radius-small">
                   <h3 class="aside-item__title f-outfit h6 color-text-heading">
                     Tags
                   </h3>
                   <div class="list-tabs d-flex flex-wrap gap-5">
-                    <button class="button button-bg__primary radius-small">
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
                       api
-                    </button>
-                    <button class="button button-bg__primary radius-small">
+                    </a>
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
                       apps
-                    </button>
-                    <button class="button button-bg__primary radius-small">
+                    </a>
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
                       branding
-                    </button>
-                    <button class="button button-bg__primary radius-small">
+                    </a>
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
                       design
-                    </button>
-                    <button class="button button-bg__primary radius-small">
-                      design
-                    </button>
-                    <button class="button button-bg__primary radius-small">
-                      design
-                    </button>
+                    </a>
+                    <a href="" class="paragraph-3 list-tabs__link f-sans weight-400 decoration-none button-bg--primary radius-small">
+                      development 
+                    </a>
+                
                   </div>
                 </div>
                 <div class="aside-item bg-light radius-small">
@@ -535,7 +546,7 @@
                   <select
                     name=""
                     id=""
-                    class="w-full border-solid__light select-group radius-small"
+                    class="w-full border-solid--light select-group radius-small"
                   >
                     <option value="">select</option>
                   </select>
@@ -548,7 +559,7 @@
                     alt=""
                     class="radius-small"
                   />
-
+  
                   <div
                     class="figure-text align-center absolute d-flex flex-column"
                   >
@@ -556,7 +567,7 @@
                       Subscribe To Our Newsletter Today
                     </h5>
                     <button
-                      class="button button-bg__secondary text-uppercase f-outfit hsub-3 button-spacing__primary radius-small"
+                      class="button button-bg__secondary text-uppercase f-outfit hsub-3 button-spacing--primary radius-small"
                     >
                       Subscribe
                     </button>
@@ -585,10 +596,10 @@
                   placeholder="Enter email"
                   name=""
                   id=""
-                  class="radius-small input-email__input input-outline__none border-solid__light"
+                  class="radius-small input-email__input input-outline--none border-solid--light"
                 />
                 <button
-                  class="button button-bg__primary radius-small button-spacing__primary"
+                  class="button button-bg--primary radius-small button-spacing--primary"
                 >
                   Subscribe
                 </button>
@@ -738,10 +749,10 @@
                   name=""
                   id=""
                   placeholder="Email enter"
-                  class="input radius-small input-outline__none border-solid__light input-spacing__medium w-full"
+                  class="input radius-small input-outline--none border-solid--light input-spacing--medium w-full"
                 />
                 <button
-                  class="button radius-small button-bg__primary button-spacing__primary text-uppercase f-outfit"
+                  class="button radius-small button-bg--primary button-spacing--primary text-uppercase f-outfit"
                 >
                   Submit
                 </button>

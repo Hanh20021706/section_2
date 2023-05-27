@@ -12,18 +12,17 @@
 
 .header-action__icon{
     width: 24px;
-    height: 24px;
 }
 
 
-.banner__title{
+.banner-title{
     margin-bottom: 30px;
 }
 .banner-action{
     margin-top: 70px;   
 }
 .button__play{
-    padding: 15px 16px;
+    padding: 18px 20px;
 }
 .banner-user__image{
 }

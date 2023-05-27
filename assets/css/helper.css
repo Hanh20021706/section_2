@@ -13,6 +13,9 @@
 .d-block{
     display: block;
 }
+.inline-block{
+    display: inline-block;
+}
 .d-none{
     display: none;
 }
@@ -96,6 +99,7 @@
 /* typography */
 .h0{
     font-size: 72px;
+    line-height: 1.2;
 }
 .h1{
     font-size: 64px;
@@ -174,14 +178,26 @@ spacing
 /* 
 margin
 */
-.mt-120{
-    margin-top: 120px;
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
 }
 .mt-30{
     margin-top: 30px;
 }
+.mt-40{
+    margin-top: 40px;
+}
+.mt-50{
+    margin-top: 50px;
+}
 .mt-80{
     margin-top: 80px;
+}
+.mt-120{
+    margin-top: 120px;
 }
 .mt-100{
     margin-top: 100px;
@@ -213,7 +229,7 @@ aspect
 /* 
 border color
 */
-.border-solid__light {
+.border-solid--light {
     border: 1px solid var(--color-text-gray);
 
 }
@@ -236,7 +252,7 @@ border color
     letter-spacing: -0.36px;
     cursor: pointer;
 }
-.button-bg__primary{
+.button-bg--primary{
     background-color: var(--bg-btn-blue);
     color: var(--color-white);
 }
@@ -255,17 +271,17 @@ border color
 .button-style__secondary{
     padding: 12px 20px;
 }
-.button-spacing__primary{
+.button-spacing--primary{
     padding: 12px 38px;
 }
 
 .input{
     border: none;
 }
-.input-spacing__medium{
+.input-spacing--medium{
     padding: 11px 18px;
 }
-.input-outline__none{
+.input-outline--none{
     outline: none;
 }
 
@@ -274,11 +290,11 @@ border color
     margin: 0 auto;
 }
 
-.box-text__medium{
+.box-text--medium{
     max-width: 870px;
     margin: 0 auto;
 }
-.box-text__large{
+.box-text--large{
     max-width: 970px;
     margin: 0 auto;
 }

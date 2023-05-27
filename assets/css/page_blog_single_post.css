@@ -61,6 +61,9 @@ aside
     line-height: 1.7;
     letter-spacing: -0.3px;
 }
+.list-tabs__link{
+    padding: 2px 5px;
+}
 
 .select-group{
     padding: 11px 15px;
